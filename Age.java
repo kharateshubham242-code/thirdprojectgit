@@ -11,10 +11,14 @@ import java.util.Scanner;
         if(true)
         System.out.println("he is mature");
     }
-    else
+    else if(age<18)
     {
     System.out.println("he is not mature");
 
     }
+      else
+      {
+       System.out.println("wrong age");
+      }
 }
 }
